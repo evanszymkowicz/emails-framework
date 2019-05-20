@@ -1,5 +1,5 @@
 # emails-framework
-Working with Foundation for Emails 2 framework
+Working with Foundation for Emails 2 framework for experience building interactive emails
 
 
 # Foundation for Emails Template

@@ -1,0 +1,29 @@
+.header{
+	background: red; //some clients don't take the background property
+	background-color: red;
+	.columns{
+		padding-bottom: 20px;
+		padding-right: 20px !important;
+		padding-left: 20px !important;
+		padding-top: 20px;
+		h1{
+			color: white;
+		}
+	}
+}
+
+.footer{
+	background: black;
+	background-color: black;
+	.footer-container{
+		background: black;
+		background-color: black;
+	}
+	.columns{
+
+	}
+	color: white;
+	a{
+		color: red;
+	}
+}
