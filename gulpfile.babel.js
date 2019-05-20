@@ -56,7 +56,8 @@ function pages() {
       root: 'src/pages',
       layouts: 'src/layouts',
       partials: 'src/partials',
-      helpers: 'src/helpers'
+      helpers: 'src/helpers',
+      data: 'src/data' //added on 5/20
     }))
     .pipe(inky())
     .pipe(gulp.dest('dist'));

@@ -10,7 +10,7 @@ percentage: 40%
 <container>
 	<row class="collapse header">
 		<columns small="12" large="12">
-			<h1 class="text-center">{{ subject }}</h1>
+			<h1 class="text-center">{{ memorialDay.title }}</h1>
 		</columns>
 	</row>
 	<row class="collapse menu">
@@ -39,6 +39,15 @@ percentage: 40%
 	</row>
 	<spacer size="100"></spacer>
 	<row>
-		<columns small="6" large="12" class=" small-offset-6">shop for {{ percentage }}% off deals</columns>
+		<columns small="6" large="12" class=" small-offset-6">
+			<h4>Shop for {{ percentage }}% off</h4>
+			<spacer size="40"></spacer>
+				{{#bold}}
+					Sample bold text
+				{{/bold}}
+				{{#bold}}
+					Visit us at:
+				{{/bold}}
+		</columns>
 	</row>
 </container>
